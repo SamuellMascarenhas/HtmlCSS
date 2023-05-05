@@ -130,13 +130,17 @@ main{
     
 }
 .mix{
+    border-radius: 30px;
     width:100%;
     padding: 20px 22px;
     max-width: 350px;
     margin-bottom: 30px;
-    border-radius: 30px;
 }
-
+.mixprod{
+    background-image: url('IMAGE/prod.jpg');
+    background-position: center center;
+    margin-bottom: 10px;
+}
 .serviço2{
     background-color: rgba(128, 128, 128, 0.24);
     text-align: center;
@@ -144,11 +148,16 @@ main{
     
 }
 .visual{
-   border-radius: 30px;
+   border-radius: 50px;
     width:100%;
     padding: 20px 22px;
     max-width: 350px;
     margin-bottom: 30px;
+}
+.v2{
+    background-image: url('IMAGE/visual.jpg');
+    margin-bottom: 30px;
+  
 }
 .serviço3{
     background-color: rgba(128, 128, 128, 0.24);
@@ -161,6 +170,11 @@ main{
     max-width: 350px;
     margin-bottom: 30px;
     border-radius: 30px;
+}
+.mkt2{
+    background-image: url('IMAGE/mkt.webp');
+    background-position: center center;
+    margin-bottom: 30px;
 }
 p{
   font-family: 'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
@@ -248,7 +262,9 @@ fieldset .grupo .campo{
 }
 .campo select option{
     padding-right: 1em;
+
 }
+
 .botao{
     font-size: 1.6em;
     font-family:'Oswald', sans-serif;
@@ -259,6 +275,7 @@ fieldset .grupo .campo{
     padding: 0.2em 0.6em;
     box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
     text-shadow: 1px 1px 1px rgb(0, 0, 0, 0.5);
+    cursor:pointer;
 }
 .botao:hover{
     color:navy;
