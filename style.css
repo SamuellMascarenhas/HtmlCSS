@@ -110,11 +110,9 @@ main{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
     margin: 15px 0px;
 }
-.banner{
-    width:100%;
-    padding: 20px 22px;
-    max-width: 350px;
-    margin-bottom: 30px;
+.banner1{
+display: inline-block;
+   
 }
 .tituloserv{
     background-color: rgb(44, 44, 44);
@@ -219,6 +217,14 @@ footer{
     font-family:'Oswald', sans-serif;
     text-align: center;
     background-color: black;
+    padding: 8px;
+   
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+
 }
 
 /*estilo da pág "cadastre-se"*/
@@ -285,4 +291,9 @@ fieldset .grupo .campo{
 .botao:active{
     color: black;
     background-color: rgb(250, 250, 250);
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    
 }
