@@ -95,6 +95,14 @@ main{
     font-family: 'Oswald', sans-serif;
     color: #ffffff;
 }
+
+.ceo{
+    background-color: rgb(44, 44, 44);
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+}
 .subtitulo{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
     margin: 15px 0px;
@@ -195,8 +203,10 @@ p{
     font-family:'Oswald', sans-serif;
 }
 .PRINCE{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
-    margin: 15px 0px;
+    background-color: rgba(128, 128, 128, 0.24);
+    text-align: center;
+    font-family:'Oswald', sans-serif;
+    
 }
 .video{
     background-color: black;
@@ -212,6 +222,7 @@ p{
     width:90%;
     height:90%;
 }
+
 footer{
     color: #ffffff;
     font-family:'Oswald', sans-serif;
